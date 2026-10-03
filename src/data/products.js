@@ -1,0 +1,12 @@
+export const starterProducts = [
+  { id: 'p-101', name: 'Sooper Biscuits', category: 'Biscuits', price: 120, stock: 42, description: 'Classic tea-time biscuits, family pack.', image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=85', rating: 4.8, reviews: 38, badge: 'Bestseller' },
+  { id: 'p-102', name: 'Crispo Potato Chips', category: 'Chips', price: 50, stock: 76, description: 'Light, crunchy salted potato chips.', image: 'https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=800&q=85', rating: 4.6, reviews: 21, badge: 'Popular' },
+  { id: 'p-103', name: 'Fruit Toffee Jar', category: 'Toffees', price: 340, stock: 18, description: 'A colourful assortment of individually wrapped fruit toffees.', image: 'https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?auto=format&fit=crop&w=800&q=85', rating: 4.9, reviews: 16, badge: 'Shop favourite' },
+  { id: 'p-104', name: 'Cola 1.5 L', category: 'Cold Drinks', price: 190, stock: 30, description: 'Chilled-ready family bottle. Sold per bottle.', image: 'https://images.unsplash.com/photo-1554866585-cd94860890b7?auto=format&fit=crop&w=800&q=85', rating: 4.5, reviews: 12, badge: '' },
+  { id: 'p-105', name: 'Milk Chocolate Bar', category: 'Chocolates', price: 100, stock: 25, description: 'Smooth milk chocolate in a handy counter-size bar.', image: 'https://images.unsplash.com/photo-1548907040-4d42a0c44a3d?auto=format&fit=crop&w=800&q=85', rating: 4.7, reviews: 19, badge: 'New' },
+  { id: 'p-106', name: 'Masala Snack Mix', category: 'Snacks', price: 80, stock: 34, description: 'A crisp, savoury mix with a gently spiced finish.', image: 'https://images.unsplash.com/photo-1599490659213-e2b9527bd087?auto=format&fit=crop&w=800&q=85', rating: 4.4, reviews: 9, badge: '' },
+  { id: 'p-107', name: 'Everyday Tea 190 g', category: 'Grocery', price: 460, stock: 20, description: 'Strong, aromatic tea for everyday shop shelves.', image: 'https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=800&q=85', rating: 4.8, reviews: 27, badge: 'Good value' },
+  { id: 'p-108', name: 'Mixed Snack Box', category: 'General Store', price: 560, stock: 12, description: 'A ready-to-display mix of customer-favourite snacks.', image: 'https://images.unsplash.com/photo-1604719312566-8912e9c8a213?auto=format&fit=crop&w=800&q=85', rating: 4.6, reviews: 8, badge: 'Deal' },
+]
+
+export const categories = ['All items', 'Biscuits', 'Toffees', 'Snacks', 'Chips', 'Cold Drinks', 'Chocolates', 'Grocery', 'General Store']
